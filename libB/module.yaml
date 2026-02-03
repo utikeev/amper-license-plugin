@@ -1,0 +1,6 @@
+product: jvm/lib
+
+plugins:
+  license:
+    enabled: true
+    detailedInfo: true

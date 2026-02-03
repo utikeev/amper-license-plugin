@@ -1,0 +1,1 @@
+Copied from https://github.com/mojohaus/license-maven-plugin/tree/master/src/main/resources/META-INF/licenses.

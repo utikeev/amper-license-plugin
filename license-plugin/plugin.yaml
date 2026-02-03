@@ -1,0 +1,4 @@
+tasks:
+  listLicenses:
+    action: !listLicenses
+      settings: ${pluginSettings}

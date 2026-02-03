@@ -1,0 +1,7 @@
+modules:
+  - libA
+  - libB
+  - license-plugin
+
+plugins:
+  - ./license-plugin
