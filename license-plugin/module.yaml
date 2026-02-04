@@ -2,6 +2,13 @@ product: jvm/amper-plugin
 
 dependencies:
   - org.jetbrains.kotlinx:kotlinx-datetime:0.7.0
+  - io.github.pdvrieze.xmlutil:serialization:1.0.0-rc2
+  - $kotlin.serialization.core
+
+settings:
+  kotlin:
+    serialization:
+      enabled: true
 
 pluginInfo:
   id: license

@@ -13,3 +13,8 @@ tasks:
   removeFileHeaders:
     action: !removeFileHeaders
       sources: ${module.kotlinJavaSources}
+  collectThirdParty:
+    action: !collectThirdPartyLicenses
+      compileDependencies: ${module.compileClasspath}
+      runtimeDependencies: ${module.runtimeClasspath}
+      reportFile: ${taskOutputDir}/thirdPartyLicenses.txt
