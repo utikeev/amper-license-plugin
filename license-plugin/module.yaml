@@ -1,5 +1,8 @@
 product: jvm/amper-plugin
 
+dependencies:
+  - org.jetbrains.kotlinx:kotlinx-datetime:0.7.0
+
 pluginInfo:
   id: license
   settingsClass: LicenseSettings

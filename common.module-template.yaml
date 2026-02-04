@@ -1,0 +1,13 @@
+plugins:
+  license:
+    enabled: true
+    headerSettings:
+      inceptionYear: 2025
+      licenseName: mit
+      organizationName: JetBrains s.r.o.
+      onMissingHeader: fail
+
+# Experimental option that allows failing tests if license headers are missing
+tasks:
+  testJvm:
+    dependsOn: [ checkFileHeaders@license ]

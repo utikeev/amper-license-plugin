@@ -1,5 +1,4 @@
 product: jvm/lib
 
-plugins:
-  license:
-    enabled: true
+apply:
+  - ../common.module-template.yaml
